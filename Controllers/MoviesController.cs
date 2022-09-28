@@ -18,6 +18,7 @@ namespace app.Controllers
         public ActionResult<IEnumerable<string>> Search(String search)
         {
             return new string[] { "value1", "value2"+search };
+            
         }
     }
 }
